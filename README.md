@@ -1,1 +1,77 @@
-# dilateformer
+# Image classification with DilateFormer
+
+We currenent release the pytorch version code for:
+
+- [x] ImageNet-1K training
+
+
+
+Our repository is built base on the [DeiT](https://github.com/facebookresearch/deit) repository, but we add some useful features:
+
+1. Calculating accurate FLOPs and parameters with [fvcore](https://github.com/facebookresearch/fvcore) (see [check_model.py](check_model.py)).
+2. Auto-resuming.
+3. Saving best models and backup models.
+4. Generating training curve (see [generate_tensorboard.py](generate_tensorboard.py)).
+
+### Installation
+
+
+- Install PyTorch 1.7.0+ and torchvision 0.8.1+
+
+  ```shell
+  conda install -c pytorch pytorch torchvision
+  ```
+
+- Install other packages
+
+  ```shell
+  pip install timm
+  pip install fvcore
+  ```
+
+### Training
+
+Simply run the training scripts as followed,  and take dilateformer_tiny as example:
+
+```shell
+bash dist_train.sh dilateformer_tiny [other prams]
+```
+
+If the training was interrupted abnormally, you can simply rerun the script for auto-resuming. Sometimes the checkpoint may not be saved properly, you should set the resumed model via `--reusme ${work_path}/ckpt/backup.pth`.
+
+
+
+### Generate curves
+
+You can generate the training curves as followed:
+
+```shell
+python3 generate_tensoboard.py
+```
+
+Note that you should install `tensorboardX`.
+
+### Calculating FLOPs and Parameters
+
+You can calculate the FLOPs and parameters via:
+
+```shell
+python3 check_model.py
+```
+
+## Acknowledgement
+
+This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models) library and the [DeiT](https://github.com/facebookresearch/deit) repository.
+
+## Citation
+If you use this code for a paper, please cite:
+
+DilateFormer
+```
+@article{jiao2023dilateformer,
+title = {DilateFormer: Multi-Scale Dilated Transformer for Visual Recognition},
+author = {Jiayu Jiao, Yu-Ming Tang, Kun-Yu Lin, Yipeng Gao, Jinhua Ma, Yaowei Wang and Wei-Shi Zheng},
+journal = {{IEEE} Transaction on Multimedia},
+year = {2023}
+}
+```
