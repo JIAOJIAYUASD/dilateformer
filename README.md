@@ -1,10 +1,12 @@
-# Image classification with DilateFormer
+# DilateFormer
+
+Official PyTorch implementation of IEEE Transaction on Multimedia 2023 paper “DilateFormer: Multi-Scale Dilated Transformer for Visual Recognition” .
 
 We currenent release the pytorch version code for:
 
 - [x] ImageNet-1K training
 
-
+## Image classification
 
 Our repository is built base on the [DeiT](https://github.com/facebookresearch/deit) repository, but we add some useful features:
 
