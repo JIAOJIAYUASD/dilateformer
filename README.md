@@ -72,7 +72,7 @@ DilateFormer
 ```
 @article{jiao2023dilateformer,
 title = {DilateFormer: Multi-Scale Dilated Transformer for Visual Recognition},
-author = {Jiao, Jiayu and Tang, Yu-Ming and Lin, Kun-Yu and Gao, Yipeng and Ma, Jinhua andWang, Yaowei and Zheng, Wei-Shi},
+author = {Jiao, Jiayu and Tang, Yu-Ming and Lin, Kun-Yu and Gao, Yipeng and Ma, Jinhua and Wang, Yaowei and Zheng, Wei-Shi},
 journal = {{IEEE} Transaction on Multimedia},
 year = {2023}
 }
