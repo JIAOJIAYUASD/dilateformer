@@ -1,6 +1,9 @@
 # DilateFormer
 
 Official PyTorch implementation of IEEE Transaction on Multimedia 2023 paper “DilateFormer: Multi-Scale Dilated Transformer for Visual Recognition” .
+[[paper]](https://arxiv.org/abs/2302.01791) 
+[[Project Page]](https://isee-ai.cn/~jiaojiayu/DilteFormer.html)
+
 
 We currenent release the pytorch version code for:
 
