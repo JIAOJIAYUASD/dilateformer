@@ -8,6 +8,7 @@ Official PyTorch implementation of IEEE Transaction on Multimedia 2023 paper “
 We currenent release the pytorch version code for:
 
 - [x] ImageNet-1K training
+- [x] ImageNet-1K pre-trained weights
 
 ## Image classification
 
