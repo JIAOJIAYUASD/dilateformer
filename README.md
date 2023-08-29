@@ -10,6 +10,10 @@ We currenent release the pytorch version code for:
 - [x] ImageNet-1K training
 - [x] ImageNet-1K pre-trained weights
 
+## ImageNet-1K pre-trained weights
+Baidu Netdisk Link: [[ckpt]](https://pan.baidu.com/s/1DTKScF5G0Cbq-jaJrxeb4A?pwd=q4mu)
+Extracted code：q4mu
+
 ## Image classification
 
 Our repository is built base on the [DeiT](https://github.com/facebookresearch/deit) repository, but we add some useful features:
