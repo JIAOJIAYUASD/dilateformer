@@ -14,6 +14,8 @@ We currenent release the pytorch version code for:
 Baidu Netdisk Link: [[ckpt]](https://pan.baidu.com/s/1DTKScF5G0Cbq-jaJrxeb4A?pwd=q4mu)
 Extracted code：q4mu
 
+Google drive Link: [[ckpt]](https://drive.google.com/drive/folders/1r8PDAQyccI6lKMIuaejin-AI1VW16Fvb?usp=sharing)
+
 ## Image classification
 
 Our repository is built base on the [DeiT](https://github.com/facebookresearch/deit) repository, but we add some useful features:
