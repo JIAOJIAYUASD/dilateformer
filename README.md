@@ -37,7 +37,7 @@ Our repository is built base on the [DeiT](https://github.com/facebookresearch/d
 - Install other packages
 
   ```shell
-  pip install timm
+  pip install timm==0.5.4
   pip install fvcore
   ```
 
